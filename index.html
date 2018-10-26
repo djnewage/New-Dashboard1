@@ -10,6 +10,7 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="style.css">
     <title>Dashboard</title>
 </head>
@@ -25,7 +26,7 @@
             <nav>
                 <a href="" class="active"><i class="fas fa-chart-pie"></i></a>
                 <a href=""><i class="fas fa-comment"></i></a>
-                <a href=""><i class="fas fa-image"></i></a>
+                <a href="#item-cards"><i class="fas fa-image"></i></a>
                 <a href=""><i class="fas fa-calendar"></i></a>
                 <a href=""><i class="fas fa-camera-retro"></i></a>
                 <a href=""><i class="fas fa-globe-americas"></i></a>
@@ -42,12 +43,12 @@
                 <div class="user-profiles">
                     <img src="https://sports.cbsimg.net/images/visual/whatshot/nike_nba_061015.jpg" alt="">
                     <img src="https://randomuser.me/api/portraits/men/91.jpg" alt="">
-                    
+
                     <i class="fas fa-cog"></i>
                 </div>
             </div>
 
-            <div class="main-body">
+            <div class="main-body animated bouneInUp">
                 <div class="over-view">
                     <div class="top">
                         <h1>Analytical Overview</h1>
@@ -88,6 +89,27 @@
                             <p class="descriptions">Reach</p>
                             <p class="green"><i class="fas fa-caret-up"></i>112.71%</p>
                         </div>
+                        <div class="card">
+                            <i class="far fa-question-circle"></i>
+                            <i class="fas fa-hand-paper"></i>
+                            <p class="big-num">18.2%</p>
+                            <p class="descriptions">Reach</p>
+                            <p class="green"><i class="fas fa-caret-up"></i>112.71%</p>
+                        </div>
+                        <div class="card">
+                            <i class="far fa-question-circle"></i>
+                            <i class="fas fa-hand-paper"></i>
+                            <p class="big-num">18.2%</p>
+                            <p class="descriptions">Reach</p>
+                            <p class="green"><i class="fas fa-caret-up"></i>112.71%</p>
+                        </div>
+                        <div class="card">
+                            <i class="far fa-question-circle"></i>
+                            <i class="fas fa-hand-paper"></i>
+                            <p class="big-num">18.2%</p>
+                            <p class="descriptions">Reach</p>
+                            <p class="green"><i class="fas fa-caret-up"></i>112.71%</p>
+                        </div>
                     </div>
                 </div>
 
@@ -107,18 +129,108 @@
                     </div>
                     <canvas id="myChart"></canvas>
                 </div>
-            </div>
-
+                <div class="other-media">
+                    <div class="over-view">
+                        <div class="top">
+                            <p>Most <span>Recent Followers Actvities</span><i class="fas fa-angle-down"></i></p>
+                            <div class="dropdown">
+                                <button class="dropbtn">Last 30 days<i class="fas fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Last 20</a>
+                                    <a href="#">Last 10</a>
+                                    <a href="#">Link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="item-cards">
+                        <div class="items">
+                            <div class="top-item">
+                                <p><img src="https://randomuser.me/api/portraits/women/17.jpg" alt=""> 73 days ago</p>
+                            </div>
+                            <img src="photo1.jpeg" alt="">
+                            <div class="bottom-item">
+                                <i class="fas fa-heart"></i>9,871
+                                <i class="fas fa-comment"></i>55
+                                <i class="fas fa-chart-pie"></i>12.11%
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="top-item">
+                                <p><img src="https://randomuser.me/api/portraits/women/17.jpg" alt=""> 73 days ago</p>
+                            </div>
+                            <img src="photo2.jpg" alt="">
+                            <div class="bottom-item">
+                                <i class="fas fa-heart"></i>9,871
+                                <i class="fas fa-comment"></i>55
+                                <i class="fas fa-chart-pie"></i>12.11%
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="top-item">
+                                <p><img src="https://randomuser.me/api/portraits/women/17.jpg" alt=""> 73 days ago</p>
+                            </div>
+                            <img src="photo3.jpeg" alt="">
+                            <div class="bottom-item">
+                                <i class="fas fa-heart"></i>9,871
+                                <i class="fas fa-comment"></i>55
+                                <i class="fas fa-chart-pie"></i>12.11%
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="top-item">
+                                <p><img src="https://randomuser.me/api/portraits/women/17.jpg" alt=""> 73 days ago</p>
+                            </div>
+                            <img src="photo4.jpeg" alt="">
+                            <div class="bottom-item">
+                                <i class="fas fa-heart"></i>9,871
+                                <i class="fas fa-comment"></i>55
+                                <i class="fas fa-chart-pie"></i>12.11%
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="top-item">
+                                <p><img src="https://randomuser.me/api/portraits/women/17.jpg" alt=""> 73 days ago</p>
+                            </div>
+                            <img src="photo5.jpg" alt="">
+                            <div class="bottom-item">
+                                <i class="fas fa-heart"></i>9,871
+                                <i class="fas fa-comment"></i>55
+                                <i class="fas fa-chart-pie"></i>12.11%
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="top-item">
+                                <p><img src="https://randomuser.me/api/portraits/women/17.jpg" alt=""> 73 days ago</p>
+                            </div>
+                            <img src="photo6.jpg" alt="">
+                            <div class="bottom-item">
+                                <i class="fas fa-heart"></i>9,871
+                                <i class="fas fa-comment"></i>55
+                                <i class="fas fa-chart-pie"></i>12.11%
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="top-item">
+                                <p><img src="https://randomuser.me/api/portraits/women/17.jpg" alt=""> 73 days ago</p>
+                            </div>
+                            <img src="photo7.jpg" alt="">
+                            <div class="bottom-item">
+                                <i class="fas fa-heart"></i>9,871
+                                <i class="fas fa-comment"></i>55
+                                <i class="fas fa-chart-pie"></i>12.11%
+                            </div>
+                        </div>
+                    </div>
 
         </section>
+
     </div>
 
 
 
-<script src="script.js">
-    
-</script>    
-
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
 </body>
 
 </html>
