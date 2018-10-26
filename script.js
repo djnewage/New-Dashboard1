@@ -1,7 +1,7 @@
 let myChart = document.getElementById('myChart').getContext('2d');
 
     let userChart = new Chart(myChart ,{
-        type:'doughnut', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+        type:'polarArea', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
         data:{
             labels:['Racine', 'Milwaukee' , 'Chicago', 'Madison', 'Greenbay'],
             datasets:[{
@@ -29,3 +29,6 @@ let myChart = document.getElementById('myChart').getContext('2d');
         },
         options:{}
     });
+
+
+    
